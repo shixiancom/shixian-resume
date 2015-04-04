@@ -1,0 +1,144 @@
+/*
+* @author Joy Neop <www.joyneop.com>
+*
+* Shixia-and-Love Technology Inc is granted permanent, un-revokable, royalty-free, non-exclusive license.
+*/
+
+body {
+	font-family: 'Proxima Nova', 'Avenir Next', Avenir, Verdana, Ubuntu, Futura, 'Helvetica Neue', Helvetica, Arial, 'Lantinghei SC', 'Hiragino Sans GB', 'Heiti SC', sans-serif;
+	color: #FFF;
+	background: #242424;
+}
+
+.avatar {
+	border-radius: 100cm;
+	width: 3.38cm;
+	height: 3.38cm;
+}
+
+h1 {
+	font-weight: 400;
+	color: #FFF;
+}
+
+a {
+}
+
+.contact {
+	font-weight: 400;
+	color: #FFF;
+}
+
+.contact span {
+}
+
+.contact span em {
+	font-style: normal;
+	width: 130px;
+}
+
+.main {
+	padding-top: 1cm;
+}
+
+.section {
+	padding-bottom: 18pt;
+}
+
+.section-heading {
+	font-weight: 600;
+	color: #ffb62b;
+	letter-spacing: 0.10rem;
+	text-transform: uppercase;
+	border-bottom: 0.8px solid #777;
+	padding-bottom: 3pt;
+}
+
+.subsection-tagline {
+	font-weight: 500;
+	color: #ffb62b;
+	letter-spacing: 0.12rem;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-weight: 700;
+}
+
+h3 .duration {
+	font-weight: 400;
+	color: #FFF;
+}
+
+p {
+	font-weight: 400;
+	color: #FFF;
+	letter-spacing: -0.02rem;
+}
+
+p a {
+	color: #ffb62b;
+}
+
+.ref {
+	/*font-family: 'Avenir Next Condensed', 'Avenir Next', Avenir, Futura, 'Helvetica Neue', Helvetica, Arial, Verdana, 'Lantinghei SC', 'Hiragino Sans GB', 'Heiti SC', sans-serif;*/
+	font-weight: 400;
+	color: #AAA;
+}
+
+
+/* ----------------------------------------------------------- */
+
+
+@media screen {
+	.download-button {
+		font-weight: 600;
+		color: #FFF;
+		background: #FFB62B;
+		text-shadow: rgba(0, 0, 0, 0.1533333333) 0 1px 1px;
+	}
+	.download-button:hover {
+		background: #EFA61B;
+	}
+	.avatar {
+		border: 0.8px solid #FFB62B;
+	}
+}
+
+@media print {
+	body, h1, .contact {
+		color: #000;
+	}
+	.avatar {
+		border: 0.5pt solid #B4B4B4;
+	}
+	.section-heading, .subsection-tagline {
+		color: #ffB600;
+	}
+	.section-heading {
+		border-bottom: 0.5pt solid #AAA;
+	}
+	h3 .duration, .ref {
+		color: #999;
+	}
+	p {
+		/*font-family: inherit;*/
+		color: #030303;
+	}
+	p a {
+		color: #ffB600;
+	}
+	.ref, .duration {
+		color: #BBB;
+	}
+}
+
+.theme-selection-line {
+	text-shadow: rgba(0, 0, 0, 0.16) 0 1px 0;
+	background: #FFB62B;
+}
+
+.theme-selection-line span {
+	font-weight: 500 !important;
+	text-shadow: inherit !important;
+}

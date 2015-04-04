@@ -1,0 +1,216 @@
+/*
+* @author Joy Neop <www.joyneop.com>
+*
+* Shixia-and-Love Technology Inc is granted permanent, un-revokable, royalty-free, non-exclusive license.
+*/
+
+@import url(/fonts/font-awesome.css);
+
+
+/* ----------------------------------------------------------- */
+
+
+* {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	font-size: 10pt;
+	margin: 0 auto;
+}
+
+.avatar {
+	float: right;
+	width: 3.38cm;
+	height: 3.38cm;
+	margin: -1pt 0 0 0;
+}
+
+h1 {
+	font-size: 28pt;
+	margin: 0 0 6pt;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.contact a {
+	display: inline-block;
+}
+
+.contact {
+	line-height: 1.35em;
+	display: block;
+}
+
+.contact em {
+	font-style: normal;
+	display: inline-block;
+	width: 130px;
+}
+
+.main {
+	padding-top: 1cm;
+}
+
+.section {
+}
+
+.section-heading {
+	font-size: 18pt;
+	letter-spacing: 0.10rem;
+	padding-top: 18pt;
+	margin: 0 0 13pt -10pt;
+}
+
+.subsection-tagline {
+	font-size: 10pt;
+	letter-spacing: 0.12rem;
+	text-transform: uppercase;
+	display: block;
+	margin: 13pt 0 13pt -10pt;
+}
+
+h3 {
+	font-size: 12pt;
+	margin: 13pt 0 5pt;
+}
+
+h3 .job {
+	box-sizing: border-box;
+	display: inline-block;
+	min-width: 7cm;
+}
+
+h3 .duration {
+	font-size: 0.8rem;
+}
+
+p {
+	line-height: 1.45em;
+	margin: 0;
+}
+
+p a {
+}
+
+.ref {
+	font-size: 9pt;
+	display: block;
+	margin: 5pt 0 5pt;
+}
+
+
+/* ----------------------------------------------------------- */
+
+
+@media all {
+	.page-break	{ display: none; }
+	.page-start	{ display: none; }
+}
+
+@media screen {
+	.download-button {
+		font-size: 14pt;
+		border-radius: 3px;
+		letter-spacing: 0.03rem;
+		text-align: center;
+		text-shadow: rgba(0, 0, 0, 0.1533333333) 0 1px 1px;
+		display: block;
+		box-sizing: border-box;
+		height: 70px;
+		padding: 1.25em 0;
+		margin: 0 auto;
+	}
+	.download-button.played {
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+	}
+	.download-button:hover {
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	body {
+		max-width: 13.4cm;
+		padding: 0 2.5cm 0;
+		zoom: 1.25;
+	}
+	.cont {
+	}
+	.grand.cont {
+		padding: 1.4cm 0;
+	}
+	.avatar {
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	body {
+		padding: 0 0cm 0;
+	}
+	.grand.cont {
+		padding: 0.4cm 0;
+	}
+	.avatar {
+		border: 0.8px solid #B4B4B4;
+	}
+}
+
+@media print {
+	.page-break	{ display: block; page-break-before: always; }
+	.page-start { display: block; height: 1.4cm; }
+	.download-button, #theme-selection.theme-selection {
+		display: none;
+	}
+	body {
+		max-width: 14.1cm;
+	}
+}
+
+.lazy-display-animation {
+	/*visibility: hidden;*/
+	/*opacity: 0;*/
+	-webkit-transition: all 210ms ease 100ms;
+	-moz-transition: all 210ms ease 100ms;
+	-ms-transition: all 210ms ease 100ms;
+	-o-transition: all 210ms ease 100ms;
+	transition: all 210ms ease 100ms;
+	/*-webkit-transform: translateX(21px);*/
+	/*-moz-transform: translateX(21px);*/
+	/*-ms-transform: translateX(21px);*/
+	/*-o-transform: translateX(21px);*/
+	/*transform: translateX(21px);*/
+}
+
+.lazy-display-animation.played {
+	visibility: visible;
+	opacity: 1;
+	-webkit-transform: none;
+	-moz-transform: none;
+	-ms-transform: none;
+	-o-transform: none;
+	transform: none;
+}
+
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+
+.button-area.pull-left .button {
+	float: left;
+	margin-right: 12px;
+}
+
+.button-area.pull-right .button {
+	float: right;
+	margin-left: 12px;
+}
+
+.FA.fa {
+	margin-right: 5px;
+}

@@ -1,0 +1,140 @@
+/*
+* @author Joy Neop <www.joyneop.com>
+*
+* Shixia-and-Love Technology Inc is granted permanent, un-revokable, royalty-free, non-exclusive license.
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,700,700italic);
+
+body {
+	font-family: Libertad, Seravek, Roboto, 'Helvetica Neue', Helvetica, 'Source Sans Pro', Arial, 'Lantinghei SC', 'Hiragino Sans GB', 'Heiti SC', 'Noto Sans SC', 'Source Han Sans CN', 'Noto Sans CJK', 'Source Han Sans', serif;
+	color: #444;
+	text-shadow: rgba(255, 255, 255, 0.55) 0 1px 0;
+	background: #FFFEF9;
+}
+
+.avatar {
+	border-radius: 100cm;
+	width: 3.38cm;
+	height: 3.38cm;
+}
+
+h1 {
+	font-family: 'Freight Text Pro', 'FF Meta Serif', 'Iowan Old Style', 'Crimson Text', Palatino, Marion, Georgia, 'Times New Roman', 'Songti SC', serif;
+	font-weight: 400;
+	color: #030303;
+}
+
+a {
+}
+
+.contact {
+	font-family: 'Freight Text Pro', 'FF Meta Serif', 'Iowan Old Style', 'Crimson Text', Palatino, Marion, Georgia, 'Times New Roman', 'Songti SC', serif;
+	font-weight: 400;
+	color: #444;
+}
+
+.contact span {
+}
+
+.contact span em {
+	font-style: normal;
+	width: 130px;
+}
+
+.main {
+	padding-top: 1cm;
+}
+
+.section {
+	padding-bottom: 18pt;
+}
+
+.section-heading {
+	font-weight: 600;
+	color: #16BE36;
+	letter-spacing: 0.02rem;
+	text-transform: none;
+	border-bottom: 0.8px solid #E5E5E5;
+	padding-bottom: 3pt;
+}
+
+.subsection-tagline {
+	font-weight: 400;
+	color: #16BE36;
+	letter-spacing: 0.12rem;
+	text-transform: uppercase;
+}
+
+h3 {
+	font-weight: 800;
+}
+
+h3 .duration {
+	font-weight: 200;
+	color: #7A7A7A;
+}
+
+p {
+	font-family: 'Freight Text Pro', 'FF Meta Serif', 'Iowan Old Style', 'Crimson Text', Palatino, Marion, Georgia, 'Times New Roman', 'Songti SC', serif;
+	font-weight: 400;
+	color: #030303;
+}
+
+p a {
+	color: #16BE36;
+}
+
+.ref {
+	font-weight: 300;
+	color: #777;
+}
+
+
+/* ----------------------------------------------------------- */
+
+
+@media screen {
+	.download-button {
+		font-weight: 300;
+		color: #FFF;
+		background: #16BE36;
+		text-shadow: rgba(0, 0, 0, 0.1533333333) 0 1px 1px;
+	}
+	.download-button:hover {
+		background: #029916;
+	}
+	.avatar {
+		border: 0.8px solid #B4B4B4;
+	}
+}
+
+@media print {
+	body {
+		color: #030303;
+	}
+	.avatar {
+		border: 0.5pt solid #B4B4B4;
+	}
+	.section-heading, .subsection-tagline {
+		color: #16BE36;
+	}
+	.section-heading {
+		border-bottom: 0.5pt solid #DDD;
+	}
+	h3 .duration, .ref {
+		color: #999;
+	}
+	p {
+		/*font-family: inherit;*/
+		color: #030303;
+	}
+}
+
+.theme-selection-line {
+	background: #16BE36;
+}
+
+.theme-selection-line span {
+	text-shadow: inherit !important;
+}

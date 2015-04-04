@@ -1,0 +1,120 @@
+/*
+* @author Joy Neop <www.joyneop.com>
+*
+* Shixia-and-Love Technology Inc is granted permanent, un-revokable, royalty-free, non-exclusive license.
+*/
+
+@import url(/fonts/font-awesome.css);
+
+._float-right {
+	float: right;
+}
+
+
+/* ----------------------------------------------------------- */
+
+
+* {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	font-family: Libertad, Seravek, Roboto, 'Helvetica Neue', Helvetica, Arial, Verdana, 'Noto Sans SC', 'Source Han Sans CN', 'Noto Sans CJK', 'Source Han Sans', 'Hiragino Sans GB', 'Heiti SC', sans-serif;
+	font-size: 14px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.area {
+	position: fixed;
+	top: 0;
+	height: 100vh;
+}
+
+.area, .area > * {
+	box-sizing: border-box;
+}
+
+.area.left {
+	color: #FFF;
+	background: #272727;
+	left: 0;
+	width: 30vw;
+	padding: 30px;
+	overflow: scroll;
+	z-index: 1;
+}
+
+.area.right {
+	color: #333;
+	box-shadow: rgba(0, 0, 0, 0.57) 2px 0 9px 1px;
+	width: 70vw;
+	left: 30vw;
+	overflow: hidden;
+	z-index: 200;
+}
+
+/* ----------------------------------------------------------- */
+
+.area.left .h1 {
+	font-weight: 400;
+	line-height: 1em;
+	margin: 0;
+}
+
+.sidebar-in {
+	border-top: 1px solid #505050;
+	border-bottom: 1px solid #252525;
+	/*min-height: 20px;*/
+	padding: 16px 0 24px;
+}
+
+.sidebar-in:first-child {
+	border-top: none;
+}
+
+.sidebar-in:last-child {
+	border-bottom: none;
+}
+
+.area.left legend {
+	font-size: 16px;
+	padding: 6px 0 0;
+	margin: 0 0 10px;
+}
+
+.area.left ul {
+	margin: 8px 0;
+}
+
+.area.left .small-footer {
+	font-size: 13px;
+	opacity: 0.5;
+	position: absolute;
+	left: 30px;
+	bottom: 16px;
+}
+
+.area.left .small-footer:hover {
+	opacity: 1;
+}
+
+.area.left .small-footer a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+.area.right .edit-area {
+	font-family: inherit;
+	font-family: 'Inconsolata', Libertad, Seravek, Roboto, 'Helvetica Neue', Helvetica, Arial, Verdana, 'Hiragino Sans GB', 'Noto Sans CJK SC', 'Noto Sans CJK', 'Noto Sans CJK JP', 'Source Han Sans', 'Source Han Sans CN', 'Source Han Sans JP', 'Heiti SC', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	border: none;
+	resize: none;
+	outline: none;
+	box-sizing: border-box;
+	width: 70vw;
+	height: 100vh;
+	padding: 50px 80px;
+}
